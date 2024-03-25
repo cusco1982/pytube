@@ -1,43 +1,32 @@
-markdown
-Copy code
-# Pytube Script for Mac
+# PyTube Script for Mac
 
 ## Introduction
-This Pytube script for Mac allows you to easily download YouTube videos directly to your system. 
+This PyTube script allows Mac users to easily download YouTube videos directly to their computers. Simple to use and efficient, it's perfect for saving your favorite videos offline.
 
 ## Prerequisites
-- Python 3.x (Python 3.6 or higher recommended)
-- pip (Python package installer)
+Before you start, you need to have Python and pip installed on your Mac. You can check if you already have them installed by opening the Terminal and typing:
 
-To check if Python is installed on your Mac, open Terminal and type:
-```sh
-python3 --version
-If Python is not installed, macOS will prompt you to download Command Line Tools. After installation, retry the command to check Python version.
+- For Python: `python --version` or `python3 --version`
+- For pip: `pip --version` or `pip3 --version`
 
-Installation
-You have two options for installation:
+If these are not installed, your Mac will prompt you to download Command Line Tools. Follow the instructions to install them. Afterward, check again to see if Python and pip are successfully installed.
 
-Clone or download this repository.
-Alternatively, create a folder named "pytube". Inside, create a file named "main.py", open it with a text editor, paste the code, and save.
-Usage
-Open Terminal.
-Navigate to the directory where the script is located.
-Run the script using the following command:
-sh
-Copy code
-python3 main.py
-You'll be prompted to input the YouTube URL. Press Enter, and a "downloads" folder will be created in your "pytube" folder containing the downloaded videos.
-Features
-Download YouTube videos with a simple command.
-Specify the URL of the video you want to download.
-Videos are saved in a "downloads" folder for easy access.
-Support
-If you encounter any issues or have questions, please open an issue on GitHub.
+## Installation
+Once Python and pip are set up, you can proceed to install the PyTube script. Here's how to do it without cloning from a repository:
 
-License
-This project is licensed under the MIT License.
+1. **Create a PyTube Folder:** Make a new folder named `pytube` on your Mac.
+2. **Create the Script File:** Inside the `pytube` folder, create a file named `main.py`. Open it with any text editor, paste the provided PyTube script code, and save the file.
+3. **Run the Script:** Open Terminal, navigate to the `pytube` folder using `cd path/to/pytube`, and run the script by typing `python3 main.py`.
 
-vbnet
-Copy code
+Upon running the script, you will be prompted to input the YouTube URL you wish to download. After hitting enter, a `downloads` folder will be created inside the `pytube` folder, where all downloaded YouTube videos will be saved.
 
-Remember to replace `your-username` and `your-repository-name` with your GitHub username and repository name respectively. After pasting this into your VSCode, ensure to customize it according to your Pytube script's specifics.
+## Features
+- Download videos directly from YouTube with a simple URL input.
+- Automatically creates a `downloads` folder for your videos.
+- Easy to install and use on any Mac with Python.
+
+## Support
+For any issues or questions, please open an issue on the GitHub repository page.
+
+## License
+This script is released under the MIT License. Feel free to use, modify, and distribute it as you see fit.
