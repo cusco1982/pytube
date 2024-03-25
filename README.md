@@ -6,7 +6,7 @@ This script allows you to easily download YouTube videos directly to your system
 
 ## Easy to follow Mac tutorial:
 
-## Prerequisites
+### Prerequisites
 Before you start, you need to have Python and pip installed. You can check if you already have them installed by opening the Terminal and typing:
 
 - For Python: `python --version` or `python3 --version`
