@@ -19,8 +19,8 @@ Once Python and pip are set up, you can proceed to install the PyTube script. He
 
 1. **Create a PyTube Folder:** Make a new folder named `pytube` on your Mac.
 2. **Create the Script File:** Inside the `pytube` folder, create a file named `main.py`. Open it with any text editor, paste the provided PyTube script code, and save the file.
-3. **Install the pytube package:** Open Terminal, navigate to the `pytube` folder using `cd path/to/pytube`, and download the pytube package by typing either `pip install pytube` or `pip3 install pytube`.
-4. **Run the Script:** Open Terminal, navigate to the `pytube` folder using `cd path/to/pytube`, and run the script by typing `python3 main.py`.
+3. **Install the Pytube Package:** Open Terminal, navigate to the `pytube` folder using `cd path/to/pytube`, and download the pytube package by typing `pip3 install pytube`.
+4. **Run the Script:** In the Terminal, while in the directory `path/to/pytube` from Step 3, run the script by typing `python3 main.py`.
 
 Upon running the script, you will be prompted to input the YouTube URL you wish to download. After hitting enter, a `downloads` folder will be created inside the `pytube` folder, where all downloaded YouTube videos will be saved.
 
