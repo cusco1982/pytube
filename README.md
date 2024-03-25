@@ -27,6 +27,3 @@ Upon running the script, you will be prompted to input the YouTube URL you wish 
 
 ## Support
 For any issues or questions, please open an issue on the GitHub repository page.
-
-## License
-This script is released under the MIT License. Feel free to use, modify, and distribute it as you see fit.
